@@ -1,0 +1,142 @@
+/* Start Global */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+body {
+    font-family: Arial, Tahoma
+}
+
+/* End Global */
+
+.container {
+    width: 70%;
+    margin: auto;
+    background: #F6F6F6;
+    padding: 10px 20px;
+    overflow: hidden
+}
+
+h1 {
+    color: #00539F
+}
+
+.rating {
+    width: 45%;
+    margin-bottom: 25px
+}
+
+.rating span {
+    margin: 3px;
+    transition: .2s all ease-in-out
+}
+
+span:hover {
+
+    color: #F6BB53;
+    cursor: pointer
+}
+
+span:last-child {
+    color: #666
+}
+
+.img-recipe {
+    width: 55%;
+    float: left;
+    margin-right: 9%
+}
+
+.img-recipe img {
+    border: 1px solid #CCC;
+    background-color: #FFF;
+    padding: 3px;
+    height: 415px;
+    border-radius: 3px
+}
+
+/* ----------------------------------------------------- */
+
+.recipe-info {
+    width: 30%;
+    float: left;
+    color: #666;
+    line-height: 1.4em
+}
+
+.recipe-info p a {
+    text-decoration: none;
+    color: #008DC8
+}
+
+/* ********************************************* */
+
+.details {
+    color: #333
+}
+
+.detail-1, .detail-2, .detail-3 {
+    margin-bottom: 8px
+}
+
+.details i {
+    color: #00539F;
+    font-weight: bold;
+    margin-right: 7px
+}
+
+.clearfix {
+    clear: both
+}
+/* ////////////////////////////////////// */
+
+.ingredients {
+    background: #FFF;
+    padding: 8px 20px;
+    margin-top: 20px
+}
+
+.method h2, .ingredients h2 {
+    background: #F6F6F6;
+    padding: 10px;
+    color: #666;
+    text-align: center
+}
+
+.method ol, .ingredients ul {
+    color: #333
+}
+
+.method ol li, .ingredients ul li {
+    padding: 10px 0;
+}
+
+/* 0000000000000000000000000000000000000 */
+
+.method {
+    background: #FFF;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #333
+}
+
+.method ol li {
+    line-height: 1.5em;
+    padding-left: 5px
+}
+
+.method p {
+    padding: 10px 20px;
+}
+
+.method p a {
+    text-decoration: none;
+    color: #008DC8
+}
+
+.method p:last-child {
+    font-style: italic
+}
