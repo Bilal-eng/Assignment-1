@@ -61,7 +61,6 @@ span:last-child {
 .img-recipe .overlay {
     position: absolute;
     bottom: 4px;
-    /* background: #698DB1 */
     background: rgba(105, 141, 177, 0.5);
     color: #F0962B;
     opacity: 0;
