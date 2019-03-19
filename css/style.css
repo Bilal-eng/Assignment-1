@@ -19,7 +19,7 @@ body {
     overflow: hidden
 }
 
-h1 {
+h1, h2 {
     color: #00539F
 }
 
@@ -101,7 +101,6 @@ span:last-child {
 .method h2, .ingredients h2 {
     background: #F6F6F6;
     padding: 10px;
-    color: #666;
     text-align: center
 }
 
