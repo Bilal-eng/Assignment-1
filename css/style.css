@@ -46,16 +46,36 @@ span:last-child {
 .img-recipe {
     width: 55%;
     float: left;
-    margin-right: 9%
+    margin-right: 9%;
+    position: relative
 }
 
 .img-recipe img {
     border: 1px solid #CCC;
     background-color: #FFF;
     padding: 3px;
-    height: 415px;
-    border-radius: 3px
+    border-radius: 3px;
+    width: 100%
 }
+
+.img-recipe .overlay {
+    position: absolute;
+    bottom: 4px;
+    /* background: #698DB1 */
+    background: rgba(105, 141, 177, 0.5);
+    color: #F0962B;
+    opacity: 0;
+    transition: .8s all ease-in-out;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    font-size: 25px
+}
+
+.img-recipe .overlay:hover {
+    opacity: 1;
+}
+
 
 /* ----------------------------------------------------- */
 
